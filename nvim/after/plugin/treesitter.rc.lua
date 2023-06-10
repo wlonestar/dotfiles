@@ -7,7 +7,7 @@ ts.setup {
     disable = {},
   },
   indent = {
-    enable = false,
+    enable = true,
     disable = {},
   },
   ensure_installed = {
@@ -19,7 +19,6 @@ ts.setup {
     "markdown",
     "vim",
     "lua",
-    "bash"
   },
   autotag = {
     enable = true
