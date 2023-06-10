@@ -51,6 +51,13 @@ nvim_lsp.lua_ls.setup {
   single_file_support = { true }
 }
 
+nvim_lsp.bashls.setup {
+  cmd = { "bash-language-server", "start" },
+  on_attach = on_attach,
+  filetypes = { "sh" },
+  single_file_support = true
+}
+
 nvim_lsp.clangd.setup {
   on_attach = on_attach,
   cmd = { "clangd" },

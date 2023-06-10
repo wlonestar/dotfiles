@@ -19,6 +19,7 @@ ts.setup {
     "markdown",
     "vim",
     "lua",
+    "bash"
   },
   autotag = {
     enable = true
