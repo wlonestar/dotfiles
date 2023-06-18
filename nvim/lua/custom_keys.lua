@@ -17,9 +17,9 @@ return {
 
 	-- View other usage of the plugin: https://github.com/nvim-neo-tree/neo-tree.nvim
 	-- Use the shortcut to open or close file explorer.
-	file_explorer = "<leader>e",
+	file_explorer = "<C-f>",
 	-- Use the shortcut to open or close git status on a float window.
-	git_status = "<leader>g",
+	git_status = "<C-g>",
 
 	-- View other usage of the plugin: https://github.com/stevearc/aerial.nvim
 	-- Use the shortcut to open or close the outline, it need to call the lsp server.
@@ -68,4 +68,3 @@ return {
 	-- Use the shortcut to format your codes.
 	format = "<leader>ft",
 }
-

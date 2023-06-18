@@ -79,8 +79,8 @@ return function()
                 nowait = true,
             },
             mappings = {
-                ["<space>"] = { 
-                    "toggle_node", 
+                ["<space>"] = {
+                    "toggle_node",
                     nowait = false, -- disable `nowait` if you have existing combos starting with this char that you want to use 
                 },
                 ["<2-LeftMouse>"] = "open",
@@ -95,7 +95,7 @@ return function()
                 ["w"] = "open_with_window_picker",
                 ["C"] = "close_node",
                 ["z"] = "close_all_nodes",
-                ["a"] = { 
+                ["a"] = {
                     "add",
                     config = {
                         show_path = "none" -- "none", "relative", "absolute"

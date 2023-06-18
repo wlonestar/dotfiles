@@ -6,6 +6,7 @@ local function set_keymap()
 	local map = vim.keymap.set
 	local option = { noremap = true, silent = true }
 
+	map("n", "<Space>", "<C-W>w", option)
 	map("n", keys.jump_left_window, "<C-W>h", option)
 	map("n", keys.jump_down_window, "<C-W>j", option)
 	map("n", keys.jump_up_window, "<C-W>k", option)
@@ -150,4 +151,3 @@ local function set_autocmd() end
 set_keymap()
 set_transparency()
 set_autocmd()
-

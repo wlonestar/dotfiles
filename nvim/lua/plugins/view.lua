@@ -71,16 +71,6 @@ return {
 		end,
 	},
 
-	-- Tab line
-	{
-		"akinsho/bufferline.nvim",
-		version = "v4.1.0",
-		dependencies = "nvim-tree/nvim-web-devicons",
-		config = function()
-			require("plugins/bufferline/config")()
-		end,
-	},
-
 	-- cmd line
 	{
 		"folke/noice.nvim",
