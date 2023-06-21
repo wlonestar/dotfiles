@@ -43,6 +43,8 @@ return {
 	-- Use the to close telescope window. <C-c> is the default setting, can't edit it here.
 	-- close_telescope  = "<C-c>",
 
+	toggle_theme = "<leader>t",
+
 	-- View other usage of the plugin: https://github.com/sindrets/diffview.nvim
 	-- Use the shortcut to open 'git diff'.
 	diff_open = "<leader>df",

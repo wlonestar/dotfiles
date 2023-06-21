@@ -33,6 +33,8 @@ require("lazy").setup({
 	},
 })
 
+vim.g.material_style = "darker"
+
 -- Final settings
 require("core")
 pcall(require, "custom")
