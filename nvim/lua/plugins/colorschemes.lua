@@ -5,6 +5,8 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function()
+			vim.opt.termguicolors = true
+			vim.g.material_style = "darker"
 			require('material').setup({
 				styles = {
 					comments = { italic = false }
@@ -15,14 +17,14 @@ return {
 					"telescope",
 				},
 				disable = {
-					background = false,
-					term_colors = false,
+					background = true,
+					term_colors = true,
 				},
 				lualine_style = 'stealth'
 			})
 
 			vim.cmd("colorscheme material")
-			vim.g.material_style = "darker"
+			vim.g.material_disable_background = true
 
 			local keys = require("custom_keys")
 			vim.keymap.set('n', keys.toggle_theme, require('material.functions').find_style, {})
