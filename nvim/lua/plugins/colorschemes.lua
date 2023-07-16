@@ -17,14 +17,13 @@ return {
 					"telescope",
 				},
 				disable = {
-					background = true,
-					term_colors = true,
+					background = false,
+					term_colors = false,
 				},
 				lualine_style = 'stealth'
 			})
 
 			vim.cmd("colorscheme material")
-			vim.g.material_disable_background = true
 
 			local keys = require("custom_keys")
 			vim.keymap.set('n', keys.toggle_theme, require('material.functions').find_style, {})
